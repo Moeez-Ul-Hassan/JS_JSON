@@ -5,4 +5,4 @@ fetch('check.json')
     const jsonString = JSON.stringify(data);
     console.log('Converted JSON string:', jsonString);
   })
-  .catch(error => console.error('Fetch error:', error));
+.catch(error => console.error('Fetch error:', error));
